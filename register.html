@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+            font-family: cursive;
+            background-color: #32bceb;
+            line-height: 20% ;
+            zoom: 2;
+            height: 45vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            
+        }
+
+        a{
+            color: violet;
+        }
+
+        input{
+            border-radius: 8px;
+            border: 3px solid #006e94;
+            width: 150px;
+            height: 25px;
+            background-color: #006e94;
+            color: white;
+            font-family: cursive;
+            font-size: 13px; 
+        }
+
+        input:focus {
+            background-color: #006e94 !important;
+        }
+        
+        .tombol{
+           width: 65px;
+           height: 25px;
+           cursor: pointer;
+                
+        }
+
+        .form{
+            background-color: #3b444b;
+            border: 15px solid #3b444b;
+            border-radius: 8px;
+            height: 200px;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="form">
+    <center>
+        <h2>Registrasi</h2>
+        <form action="register.php" method="POST">
+            <table>
+                <tr>
+                    <td align="center"><input placeholder="nama pengguna baru" type="text" name="username" required maxlength="20"></td>
+                </tr>
+                <tr>
+                    <td align="center"><input placeholder="kata sandi baru" type="password" name="password" required></td>
+                </tr>
+                <tr>
+                    <td align="center"><input type="submit" value="Daftar" class="tombol"></td>
+                </tr>
+            </table>
+        </form>
+        <p>Sudah punya akun?</p>
+        <a href="login.html" style="text-decoration: none;">klik disini</a>
+        </center>
+    </div>
+</body>
+</html>

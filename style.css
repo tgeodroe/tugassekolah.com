@@ -1,0 +1,104 @@
+body{
+    background-color: #32bceb;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #006e94;
+}
+
+h2{
+    font-family: sans-serif;
+    margin-left: 90px;
+    margin-top: 25px;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+
+.judul{
+    color: white;
+}
+
+.hehe{
+    color: white;
+}
+
+
+header{
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    margin-top: 0px;
+
+}
+
+header img{
+    position: fixed;
+    width: 100px;
+}
+
+.logo2{
+    position: fixed;
+    width: 100px;
+}
+
+header{
+    height: 100px;
+}
+
+.nav{
+    position: fixed;
+    right: 10px;
+    top: 0;
+}
+
+.nav h1{
+    position: relative;
+    font-size: 35px;
+    float: right;
+    font-family: cursive;
+    letter-spacing: -1px;
+}
+
+
+
+button{
+    border-radius: 5px;
+    border: 3px solid #006e94;
+    width: 100px;
+    height: 25px;
+    background-color: #006e94;
+    color: white;
+    font-family: cursive;
+    font-size: 13px; 
+    cursor: pointer;
+}
+
+textarea {
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: 3px solid #006e94;
+    border-radius: 10px;
+    font-family: cursive;
+    font-size: 20px;
+    line-height: 1.5;
+    background-color: white;
+}
+
+center{
+    zoom: 1.5;
+    font-family: cursive;
+}
+
+span{
+    position: relative;
+    font-size: 35px;
+    font-family: cursive;
+    top: -15px;
+    margin-left: 50px;
+
+}
